@@ -1,0 +1,11 @@
+Question 3 – Pass or Fail (if-else)
+Scenario:
+If score is 50 or above, display "Pass", otherwise display "Fail".
+
+Jawapan:
+score = float(input("Enter your score: "))
+
+if score >=50:
+  print("Pass")
+else:
+  print("Fail")
