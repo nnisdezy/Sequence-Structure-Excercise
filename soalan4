@@ -15,4 +15,4 @@ elif score >= 60:
 elif score >=50:
     print("Grade C")
 else:
-    print("Fail:)
+    print("Fail")
