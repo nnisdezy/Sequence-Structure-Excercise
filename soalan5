@@ -1,0 +1,20 @@
+Question 5 – Access Control System (Nested if-else)
+Scenario:
+If user is staff:
+    If access level >= 5 → Access granted
+    Else → Access denied: insufficient level
+If not staff → Access denied: staff only
+
+Jawapan:
+is_staff = input("Are you a staff member? (yes/no): ").lower()
+
+if is_staff == "yes":
+   
+    access_level = int(input("Enter your access level: "))
+    
+    if access_level >= 5:
+        print("Access granted")
+    else:
+        print("Access denied: insufficient level")
+else:
+    print("Access denied: staff only")
